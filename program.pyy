@@ -1,0 +1,9 @@
+l=[]
+s=int(input("list size"))
+for i in range(s) :
+    x=int(input("enter DOB:"))
+    l.append(x)
+print(l)    
+print("DOB u have entered is: ")    
+l2=[2019-i for i in l]
+print("current ages:",l2)
